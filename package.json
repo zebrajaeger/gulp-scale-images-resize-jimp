@@ -32,7 +32,6 @@
 	"devDependencies": {
 	},
 	"scripts": {
-		"test": "node test/index.js",
-		"prepublishOnly": "npm test"
+		"test": "node test/index.js"
 	}
 }
