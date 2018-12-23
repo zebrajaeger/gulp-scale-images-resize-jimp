@@ -1,0 +1,38 @@
+{
+	"name": "@zebrajaeger/gulp-scale-images-resize-jimp",
+	"description": "Resizer for Gulp plugin to resize each image into multiple smaller variants.",
+	"version": "0.0.1",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"gulp",
+		"gulpplugin",
+		"scale",
+		"resize",
+		"image",
+		"picture",
+		"jimp",
+		"parallel"
+	],
+	"author": "zebrajaeger",
+	"homepage": "https://github.com/zebrajaeger/gulp-scale-images-resize-jimp",
+	"repository": "zebrajaeger/gulp-scale-images-resize-jimp",
+	"bugs": "https://github.com/zebrajaeger/gulp-scale-images/issues-resize-jimp",
+	"license": "ISC",
+	"engines": {
+		"node": ">=6"
+	},
+	"dependencies": {
+		"fancy-log": "latest",
+		"jimp": "latest",
+		"plugin-error": "latest"
+	},
+	"devDependencies": {
+	},
+	"scripts": {
+		"test": "node test/index.js",
+		"prepublishOnly": "npm test"
+	}
+}
