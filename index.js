@@ -5,7 +5,7 @@ const path = require('path');
 const log = require('fancy-log');
 
 const { SCALE_INFO } = require('@zebrajaeger/gulp-scale-images');
-const PLUGIN_NAME = "gulp-scale-images-sharp";
+const PLUGIN_NAME = "gulp-scale-images-jimp";
 
 
 const resizeJimp = (file, cfg, cb) => {
